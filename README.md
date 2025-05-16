@@ -25,4 +25,7 @@ SpendWell is a simple side project aimed at helping users track their expenses a
 ## 💡 Motivation
 This project is created for learning purposes, particularly to practice DOM manipulation, layout design, and basic data handling in the browser.
 
+## Preview
+
+https://github.com/user-attachments/assets/2c52ebc1-cb59-4257-9eeb-212866a549c8
 
