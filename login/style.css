@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: black; */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f4f4f4; */
+    color: #fff;
+    line-height: 1.6;
+    padding: 20px;
+    background-color: black;
+}
+
+
+
+.login-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+    color: #fff;
+
+    background-image: url('/login/background.jpg');
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-size: cover;      /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the image */
+    position: relative;
+}
+
+.login-page h1 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.login-page form {
+    background: #03346E;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    height: 280px;
+}
+
+.login-page form label {
+    display: block;
+    margin-top: 10px;
+}
+
+.login-page form input, .login-page form button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.login-page form button {
+    background: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    padding-top: 20px;
+}
+
+
+.login-page form button:hover {
+    background-color: #45a049;
+}
+
+

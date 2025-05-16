@@ -1,0 +1,158 @@
+/* General Styles */
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial', sans-serif;
+    /* color: #E2E2B6; Light for text */
+    color: #fff; /* Light for text */
+    background-color: black; /* Dark background */
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:black; /* Deep Blue */
+    background: linear-gradient(180deg, black 60%,#021526 100%);
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #6EACDA; /* Light Blue */
+    font-weight: bold;
+}
+
+.logo {
+    height: 60px;
+}
+/* Hero Section */
+.hero {
+    background: linear-gradient(180deg, #021526 70%,#5e80aa 100%);
+    text-align: center;
+    /* padding: 100px 20px; */
+    background-image: url('/LandingPage/hero.jpg');
+    background-repeat: no-repeat; /* Ensures the image doesn't repeat */
+    background-size: cover;      /* Makes the image cover the entire screen */
+    background-position: center; /* Centers the image */
+    position: relative;
+}
+
+.hero-content {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 300px;
+}
+
+.hero-content h1 {
+    font-size: 4em;
+    margin: 10px 0;
+    
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.cta-buttons a {
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.btn.primary {
+    background-color: #6EACDA;
+    color: #021526;
+}
+
+.btn.secondary {
+    background-color: #E2E2B6;
+    color: #03346E;
+}
+
+/* Features Section */
+.features {
+    padding: 80px 300px;
+    text-align: center;
+}
+
+.head {
+    padding-bottom: 40px;
+    font-size: 45px;
+}
+
+.feature-cards {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.card {
+    background-color: #03346E;
+    /* background-color: #f9f9f9a0; */
+    border-radius: 10px;
+    padding: 30px;
+    max-width: 300px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.break {
+    background-color: #03346E ;
+    height: 10px;
+}
+
+.how-it-works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+.head2 {
+    font-size: 35px;
+    position: relative;
+    left: 320px;
+    top : -50px ;
+}
+.step > h3 {
+    text-align: center;
+    font-size: 25px;
+}
+.step > p {
+    text-align: center;
+    font-size: 15px;
+}
+.steps {
+    position: relative;
+    left : 200px ;
+}
+.svg {
+    position: absolute;
+    left: 100px;
+    bottom: -1253px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #03346E;
+    color: #E2E2B6;
+}
